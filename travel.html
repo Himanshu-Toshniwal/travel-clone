@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;300;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+
+
+
+
+    <!-- Animate on scroll CDN -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Local CSS File(s) -->
+
+    <link rel="stylesheet" href="travel.css">
+
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <ul class="links-container">
+         <li class="link-item"> <a href="#travel">Travels</a> </li>
+         <li class="link-item"> <a href="#explore-section">Explore</a> </li>
+
+         <li class="link-item">
+             <a href="hero-section">
+                <img src="logo.png" class="logo">
+            </a>
+         </li>
+
+         <li class="link-item"> <a href="#video-section" id="video-link">Video</a></li>
+         <li class="link-item"> <a href="#services">Services</a> </li>
+         <li class="link-item"> <a href="#booknow">Book your tour</a> </li>
+        </ul>
+    </nav>
+
+    <main class="hero-section" id="hero-section">
+    
+        <div class="background">
+            <img src="front-image.jpg" class="background-image" alt="hero-section-image">
+
+            <div class="slider-grid">
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+                <div class="grid-item hide"></div>
+
+
+            </div>
+        </div>
+
+
+     <div class="hero-section-content" data-aos="fade-up">
+        <h1 class="hero-section-title">Discover Wonderful Destination</h1>
+        <p class="hero-section-sub-heading">EXperience the beauty and culture of the world with exclusive tours.</p>
+     </div>
+
+     <img src="down arrow.png" class="scroll-down-icon" alt="scroll down">
+
+    </main>
+</header>
+
+<section class="explore-section" id="explore-section">
+
+    <h1 class="section-title" data-aos="fade-up">Explore the world</h1>
+    <p class="section-para" data-aos="fade-up">Embark on an adventure to uncover hidden gems around the globe.Exploring the world allows you to experience different cultures, taste new cuisines, and meet fascinating people.</p>
+
+    <div class="tours-container">
+        <div class="tour-card" data-aos="fade-up">
+         <img src="australia.png" class="tour-img" alt="">
+         <div class="tour-body">
+            <h1 class="tour-name">Australia</h1>
+            <p class="tour-action">View City</p>
+         </div>
+        </div>
+        <div class="tour-card" data-aos="fade-up">
+            <img src="maldives.png" class="tour-img" alt="">
+            <div class="tour-body">
+               <h1 class="tour-name">Maldives</h1>
+               <p class="tour-action">View City</p>
+            </div>
+           </div>
+           <div class="tour-card" data-aos="fade-up">
+            <img src="paris.png" class="tour-img" alt="">
+            <div class="tour-body">
+               <h1 class="tour-name">Paris</h1>
+               <p class="tour-action">View City</p>
+            </div>
+           </div>
+           <div class="tour-card" data-aos="fade-up">
+            <img src="dubai.png" class="tour-img" alt="">
+            <div class="tour-body">
+               <h1 class="tour-name">Dubai</h1>
+               <p class="tour-action">View City</p>
+            </div>
+           </div>
+           <div class="tour-card" data-aos="fade-up">
+            <img src="india.png" class="tour-img" alt="">
+            <div class="tour-body">
+               <h1 class="tour-name">India</h1>
+               <p class="tour-action">View City</p>
+            </div>
+           </div>
+           <div class="tour-card" data-aos="fade-up">
+            <img src="italy.png" class="tour-img" alt="">
+            <div class="tour-body">
+               <h1 class="tour-name">Italy</h1>
+               <p class="tour-action">View City</p>
+            </div>
+           </div>
+           <div class="tour-card" data-aos="fade-up">
+            <img src="london.jpg" class="tour-img" alt="">
+            <div class="tour-body">
+               <h1 class="tour-name">London</h1>
+               <p class="tour-action">View City</p>
+            </div>
+           </div>
+           <div class="tour-card" data-aos="fade-up">
+            <img src="switzerland.jpg" class="tour-img" alt="">
+            <div class="tour-body">
+               <h1 class="tour-name">switzerland</h1>
+               <p class="tour-action">View City</p>
+            </div>
+           </div>
+    </div>
+
+</section>
+
+<h1 id="home">Travel Video</h1>
+<div id="video-section" class="video-container">
+   <h2>Video 1</h2>
+   <video id="travel-video1" class="gallery-video" muted>
+      <source src="video1.mp4" type="video/mp4">
+   </video>
+    <h2>Video 2</h2>
+   <video id="travel-video2" class="gallery-video" muted>
+      <source src="video2.mp4" type="video/mp4">
+   </video>
+   <h2>Video 3</h2>
+   <video id="travel-video3" class="gallery-video" muted>
+      <source src="video3.mp4" type="video/mp4">
+   </video>
+</div>
+
+
+<section class="services-section" id="services">
+
+   <h1 class="section-title data-aos="fade-up"">Why Us ?</h1>
+   <p class="section-para" data-aos="fade-up">Choosing our services ensures that you receive top-quality solutions tailored to your unique needs.Our team of experts is dedicated to providing exceptional service, innovative approaches, and reliable results.With years of experience in the industry , we guarantee satisfaction and strive to exceed your expectations at every step.</p>
+
+   <div class="services-grid">
+      <div class="service-card" data-aos="fade-up">
+        <div class="circle"></div>
+        <i class="fa-solid fa-earth-americas card-icon"></i>
+        <p class="service-text">We are based all over the world</p>
+      </div>
+
+      <div class="service-card" data-aos="fade-up">
+         <div class="circle"></div>
+         <i class="fa-solid fa-coins card-icon"></i>
+         <p class="service-text">Travel the World , Without thinking</p>
+       </div>
+
+       <div class="service-card" data-aos="fade-up">
+         <div class="circle"></div>
+         <i class="fa-solid fa-book-open card-icon"></i>
+         <p class="service-text">Get to know about local cultures</p>
+       </div>
+
+       <div class="service-card" data-aos="fade-up">
+         <div class="circle"></div>
+         <i class="fa-solid fa-person-snowboarding card-icon"></i>
+         <p class="service-text">Have you best experience</p>
+       </div>
+   </div>
+
+   <div class="bg-circle"></div>
+
+   <div class="travel-grid" id="travel">
+     <img src="img15.jpg" data-aos="fade-up" alt="">
+     <img src="img11.jpg" data-aos="fade-up" alt="">
+     <img src="paris.png" data-aos="fade-up" alt="">
+     <img src="italy.png" data-aos="fade-up" alt="">
+     <img src="img14.jpg" data-aos="fade-up" alt="">
+     <img src="img7.jpg" data-aos="fade-up" alt="">
+     <img src="london.jpg" data-aos="fade-up" alt="">
+     <img src="img8.jpg" data-aos="fade-up" alt="">
+     <img src="maldives.png" data-aos="fade-up" alt="">
+     <img src="img9.jpg" data-aos="fade-up" alt="">
+     <img src="img12.jpg" data-aos="fade-up" alt="">
+     <img src="beach.jpg" data-aos="fade-up" alt="">
+   </div>
+</section>
+
+<section class="book-section" id="booknow">
+<div class="book-content" data-aos="fade-up">
+<h1 class="book-now-title">Book your travel today</h1>
+<p class="book-now-text">Give yourself and your family a peaceful and wonderful
+    vacation this holiday</p>
+
+    <button class="book-now">book now</button>
+</div>
+
+<div class="bg-circle-2"></div>
+<img src="book.png" class="book-now-img" data-aos="fade-up" alt="">
+</section>
+
+<footer>
+   <img src="logo.png"  class= footer-logo alt="">
+   <div class="footer-text">
+      <p>Travel the world, on this holiday</p>
+      <p>Email - support@travel.com</p>
+      <p>Phone - 8690155545, 7610832253</p>
+   </div>
+   <p class="copyright-line">This design is a concept design. Made by Himanshu Toshniwal 🩷🩷</p>
+</footer>
+
+
+    <!-- animate on scoll JS CDN -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Local JS File(s) -->
+
+    <script src="travel.js"></script>
+
+</body>
+
+</html>
