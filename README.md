@@ -50,8 +50,5 @@ Built as a front-end concept for travel agencies or personal portfolios.
 
 ---
 
-## ⚙️ Setup & Installation  
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/your-username/travel-clone
+
    
